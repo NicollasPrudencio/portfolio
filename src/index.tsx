@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import Sidebar from './containers/Sidebar'
 import reportWebVitals from './reportWebVitals'
-import Teste from './Teste'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <React.StrictMode>
-    <Teste />
+    {/* <Sidebar /> */}
+    <App />
   </React.StrictMode>
 )
 
